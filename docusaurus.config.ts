@@ -91,6 +91,15 @@ const config: Config = {
             {label: 'Obsidian', href: 'https://obsidian.md'},
             {label: 'Docusaurus', href: 'https://docusaurus.io'},
             {label: 'Zettelkasten Method', href: 'https://zettelkasten.de'},
+            {label: 'GitHub', href: 'https://github.com/Saransh0503/networking-vault'},
+          ],
+        },
+        {
+          title: 'Built By',
+          items: [
+            {label: 'Saransh Singh', href: 'https://github.com/Saransh0503'},
+            {label: 'GitHub', href: 'https://github.com/Saransh0503'},
+            {label: 'LinkedIn', href: 'https://linkedin.com/in/saranshsingh2006'},
           ],
         },
       ],
