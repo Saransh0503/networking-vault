@@ -196,6 +196,19 @@ code, pre {
   }
 }
 
+/* Mobile sidebar drawer - ensure it's above backdrop and content */
+@media (max-width: 996px) {
+  [class*="sidebarViewport"],
+  [class*="sidebarHidden"],
+  [class*="docSidebarContainer"] {
+    z-index: 1001 !important;
+  }
+  
+  .navbar-sidebar__backdrop {
+    z-index: 1000 !important;
+  }
+}
+
 /* ----- sidebar ----- */
 .menu {
   font-size: 0.85rem;
