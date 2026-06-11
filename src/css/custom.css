@@ -847,11 +847,17 @@ table {
 
 /* --- ASCII figures on mobile --- */
 @media (max-width: 640px) {
+  .fig {
+    overflow: hidden;
+  }
+
   .fig pre {
     font-size: 0.58rem;
     padding: 10px;
     overflow-x: auto;
     white-space: pre;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .fig figcaption {
@@ -946,6 +952,7 @@ table {
   .fig pre {
     overflow-x: auto;
     max-width: 100%;
+    box-sizing: border-box;
   }
 
   .theme-doc-markdown table {
