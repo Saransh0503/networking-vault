@@ -187,6 +187,13 @@ code, pre {
 
 .navbar-sidebar {
   background: var(--paper);
+  z-index: 1000;
+}
+
+@media (max-width: 996px) {
+  .navbar-sidebar {
+    padding-top: var(--ifm-navbar-height);
+  }
 }
 
 /* ----- sidebar ----- */
