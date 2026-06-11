@@ -1,0 +1,11 @@
+{
+  "label": "Application Layer",
+  "position": 1,
+  "description": "HTTP, DNS, SMTP, SSH, and more",
+  "link": {
+    "type": "generated-index",
+    "title": "Application Layer",
+    "slug": "/category/application-layer",
+    "description": "Notes related to the application layer of network protocols."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "Wireless & Modern",
+  "position": 7,
+  "description": "WPA2, WPA3, QUIC",
+  "link": {
+    "type": "generated-index",
+    "title": "Wireless & Modern",
+    "slug": "/category/wireless-modern",
+    "description": "Notes related to the wireless & modern of network protocols."
+  }
+}

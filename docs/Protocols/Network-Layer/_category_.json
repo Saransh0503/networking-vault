@@ -1,0 +1,11 @@
+{
+  "label": "Network Layer",
+  "position": 3,
+  "description": "IPv4, IPv6, ICMP, IPsec",
+  "link": {
+    "type": "generated-index",
+    "title": "Network Layer",
+    "slug": "/category/network-layer",
+    "description": "Notes related to the network layer of network protocols."
+  }
+}

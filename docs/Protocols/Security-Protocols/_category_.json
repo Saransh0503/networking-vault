@@ -1,0 +1,11 @@
+{
+  "label": "Security Protocols",
+  "position": 5,
+  "description": "SSL/TLS, IPsec, SSH, HTTPS",
+  "link": {
+    "type": "generated-index",
+    "title": "Security Protocols",
+    "slug": "/category/security-protocols",
+    "description": "Notes related to the security protocols of network protocols."
+  }
+}

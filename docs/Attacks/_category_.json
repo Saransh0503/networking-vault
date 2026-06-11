@@ -1,0 +1,9 @@
+{
+  "label": "Attacks",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "Attack Vectors",
+    "slug": "category/attacks"
+  }
+}

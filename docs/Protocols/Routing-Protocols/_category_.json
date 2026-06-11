@@ -1,0 +1,11 @@
+{
+  "label": "Routing Protocols",
+  "position": 6,
+  "description": "RIP, OSPF, BGP",
+  "link": {
+    "type": "generated-index",
+    "title": "Routing Protocols",
+    "slug": "/category/routing-protocols",
+    "description": "Notes related to the routing protocols of network protocols."
+  }
+}

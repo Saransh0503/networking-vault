@@ -1,0 +1,11 @@
+{
+  "label": "Data Link Layer",
+  "position": 4,
+  "description": "Ethernet and ARP",
+  "link": {
+    "type": "generated-index",
+    "title": "Data Link Layer",
+    "slug": "/category/data-link-layer",
+    "description": "Notes related to the data link layer of network protocols."
+  }
+}
