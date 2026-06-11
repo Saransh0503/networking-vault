@@ -805,3 +805,168 @@ table {
 .DocSearch-Button-Key {
   color: var(--ink-soft) !important;
 }
+
+/* ========================================
+   MOBILE RESPONSIVE STYLES
+   ======================================== */
+
+/* --- Hero section on mobile --- */
+@media (max-width: 640px) {
+  .hero-wrap {
+    padding: 0 16px;
+  }
+
+  .hero {
+    padding: 32px 0 12px;
+    margin-bottom: 20px;
+  }
+
+  .kicker {
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    margin: 0 0 12px;
+  }
+
+  .titanic {
+    font-size: clamp(2.4rem, 14vw, 4rem);
+    line-height: 0.92;
+    margin: 0 0 8px;
+  }
+
+  .hero-sub {
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 100%;
+  }
+
+  .content-grid {
+    gap: 20px;
+    padding-bottom: 40px;
+  }
+}
+
+/* --- ASCII figures on mobile --- */
+@media (max-width: 640px) {
+  .fig pre {
+    font-size: 0.58rem;
+    padding: 10px;
+    overflow-x: auto;
+    white-space: pre;
+  }
+
+  .fig figcaption {
+    font-size: 0.72rem;
+    padding: 5px 10px;
+  }
+}
+
+/* --- Stats grid on mobile --- */
+@media (max-width: 640px) {
+  .stats {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .stat {
+    align-items: center;
+  }
+
+  .stat-num {
+    font-size: 2.2rem;
+  }
+
+  .stat-label {
+    font-size: 0.62rem;
+    letter-spacing: 0.15em;
+  }
+}
+
+/* --- Category list on mobile --- */
+@media (max-width: 640px) {
+  .cat-row {
+    padding: 10px 0;
+  }
+
+  .cat-label {
+    font-size: 0.72rem;
+  }
+
+  .cat-desc {
+    font-size: 0.82rem;
+  }
+}
+
+/* --- Navbar on mobile --- */
+@media (max-width: 640px) {
+  .navbar__brand {
+    font-size: 1.15rem;
+  }
+
+  .navbar__link {
+    font-size: 0.7rem;
+  }
+}
+
+/* --- Footer on mobile --- */
+@media (max-width: 640px) {
+  .footer__title {
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+  }
+
+  .footer__link-item {
+    font-size: 0.82rem;
+  }
+
+  .footer__copyright {
+    font-size: 0.7rem;
+  }
+}
+
+/* --- Tablet breakpoint --- */
+@media (max-width: 1024px) and (min-width: 641px) {
+  .hero-wrap {
+    padding: 0 20px;
+  }
+
+  .content-grid {
+    grid-template-columns: minmax(300px, 0.9fr) minmax(350px, 1.1fr);
+    gap: 32px;
+  }
+
+  .fig pre {
+    font-size: 0.65rem;
+  }
+}
+
+/* --- Ensure pre/code doesn't overflow --- */
+@media (max-width: 768px) {
+  .theme-doc-markdown pre,
+  .fig pre {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+
+  .theme-doc-markdown table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+/* --- Hero subtitle line length on narrow screens --- */
+@media (max-width: 480px) {
+  .hero-sub {
+    font-size: 0.92rem;
+  }
+
+  .lede {
+    font-size: 0.98rem;
+  }
+
+  .dropcap::first-letter {
+    font-size: 3.5em;
+    margin-top: 3px;
+  }
+}
