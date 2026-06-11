@@ -814,6 +814,8 @@ table {
 @media (max-width: 640px) {
   .hero-wrap {
     padding: 0 16px;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
   .hero {
@@ -831,6 +833,7 @@ table {
     font-size: clamp(2.4rem, 14vw, 4rem);
     line-height: 0.92;
     margin: 0 0 8px;
+    word-break: break-word;
   }
 
   .hero-sub {
@@ -842,6 +845,8 @@ table {
   .content-grid {
     gap: 20px;
     padding-bottom: 40px;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 }
 
@@ -849,6 +854,7 @@ table {
 @media (max-width: 640px) {
   .fig {
     overflow: hidden;
+    max-width: 100%;
   }
 
   .fig pre {
@@ -959,6 +965,21 @@ table {
     display: block;
     overflow-x: auto;
     white-space: nowrap;
+  }
+}
+
+/* --- Global mobile overflow protection --- */
+@media (max-width: 640px) {
+  html,
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  .main-wrapper,
+  #__docusaurus {
+    overflow-x: hidden;
+    max-width: 100%;
   }
 }
 
