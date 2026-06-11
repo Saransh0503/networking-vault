@@ -585,7 +585,7 @@ code, pre {
 
 /* ----- footer ----- */
 .footer {
-  background: var(--ifm-footer-background-color);
+  background: #000;
   color: var(--paper);
   border-top: 1.5px solid var(--ink);
   font-family: 'Spectral', serif;
@@ -593,6 +593,7 @@ code, pre {
 }
 
 [data-theme='dark'] .footer {
+  background: #000;
   color: var(--ink-soft);
   border-top-color: var(--rule-strong);
 }
