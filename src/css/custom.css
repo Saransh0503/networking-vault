@@ -824,9 +824,7 @@ table {
   }
 
   .kicker {
-    font-size: 0.65rem;
-    letter-spacing: 0.25em;
-    margin: 0 0 12px;
+    display: none;
   }
 
   .titanic {
@@ -922,9 +920,19 @@ table {
 
 /* --- Footer on mobile --- */
 @media (max-width: 640px) {
+  .footer__links {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer__col {
+    width: 100%;
+    min-width: 0;
+  }
+
   .footer__title {
-    font-size: 0.65rem;
     letter-spacing: 0.12em;
+    font-size: 0.65rem;
   }
 
   .footer__link-item {
