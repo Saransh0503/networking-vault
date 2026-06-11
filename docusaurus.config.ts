@@ -99,7 +99,7 @@ const config: Config = {
           items: [
             {label: 'Saransh Singh', href: 'https://github.com/Saransh0503'},
             {label: 'GitHub', href: 'https://github.com/Saransh0503'},
-            {label: 'LinkedIn', href: 'https://linkedin.com/in/saranshsingh2006'},
+            {label: 'LinkedIn', href: 'https://www.linkedin.com/in/mastermorphix/'},
           ],
         },
       ],
